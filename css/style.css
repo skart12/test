@@ -1,0 +1,127 @@
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  width: 196px;
+}
+
+.user__features {
+  width: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 125px;
+}
+
+.bestsellers {
+  padding-top: 7px;
+}
+
+.bestsellers__header {
+  margin-top: 110px;
+}
+
+.bestsellers__card {
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bestsellers__img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.bestsellers__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+.bestsellers__price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+  .content-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .intro-wrapper {
+    padding: 0 70px;
+  }
+  .intro__image {
+    display: none;
+  }
+}
+
+.contactUs {
+  background-color: #f1f2f4;
+}
+
+.containerContactUs {
+  width: 568px;
+  margin: 0 auto;
+}
+
+.formContactUs {
+  margin-top: 89px;
+  margin-bottom: 72px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #151C22;
+}
+
+.whiteBlockBeforeContactUss {
+  background-color: #ffffff;
+  height: 133px;
+}
+/*# sourceMappingURL=style.css.map */
